@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(207, 203, 203);
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+}
+#nutri-Principal{
+    width: 50%;
+
+    float: left;
+}
+.receita{
+    margin-left: 20px;
+}
+#p{
+    text-align: center;
+    padding: 20px;
+}

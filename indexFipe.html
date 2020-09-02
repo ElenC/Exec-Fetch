@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleFipe.css">
+    <title>Tabela Fipe</title>
+</head>
+<body>
+
+  <div id="principal">
+      <select name="" id="tipoVeiculo" onchange="TypeCar()">
+        <option value="" hidden>Selecione Tipo</option>
+        <option value="moto">Moto</option>
+        <option value="carro">Carro</option>
+        <option value="caminhao">Caminhão</option>
+      </select>
+
+      
+      <select name="marc" id="marca" onchange="MarcaCar()">
+        <option value=""hidden>Selecione Marca</option>
+      </select>
+
+      
+      <select name="model" id="modelo" onchange="ModeloCar()">
+        <option value=""hidden>Selecione Modelo</option>
+      </select>
+      
+      <select name="year" id="ano" onchange="AnoCar()">
+        <option value=""hidden>Selecione Ano</option>
+      </select>
+  </div>
+
+    <section>
+      <div id="finalmente">
+
+      </div>
+    </section>
+    
+    <script src="scriptFipe.js"></script>
+</body>
+</html>
